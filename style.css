@@ -1,0 +1,753 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+
+body{
+    background-color: #330D0D;
+}
+.container1{
+    /* border: solid 1px; */
+    height: 50em;
+    /* background-color: #330D0D; */
+}
+
+.img1{
+    height: 80px;
+    width: 90px;
+    margin:auto;
+    display:flex;
+    margin-top: 40px;
+}
+
+.img2{
+    height: 800px;
+    width: 1400px;
+    margin:auto;
+    display:flex;
+    margin-top: 40px;
+    /* z-index: 0; */
+    object-fit: cover;
+    
+
+}
+
+.img3{
+    height: 80px;
+    width: 90px;
+}
+
+.image-container {
+    position: relative;
+  }
+
+.position1 {
+    position: absolute;
+    left: 200px;
+    bottom: 700px;
+  }
+
+.carpe{
+    color: white;
+    position: absolute;
+    margin-left: 280px;
+    bottom: 470px;
+}
+
+.soleo {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 50px;
+    position: absolute;
+    margin-top: -47em;
+    margin-left: 25em;
+  }
+
+.box{
+    width: 250%;
+}
+  
+.habet{
+    color: white;
+    position: absolute;
+    display: flex;
+    font-size: 100px;
+    margin-left: 4em;
+    margin-top: -600px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13em;
+    margin-top: -30em;
+    position: absolute;
+}
+
+.reseaux{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+.sport{
+    display: flex;
+    position: absolute;
+    margin-left: 25em;
+    margin-top: -20em;
+    justify-content: space-evenly;
+
+}
+
+.sport2{
+    height: 50px;
+    width: 50px;
+    border: solid 1px #C0BDB6;
+    background-color: #C0BDB6;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.lorem{
+    margin-left: 37em;
+    position: absolute;
+}
+
+.lorem1{
+    color: white;
+    margin-top: -20em;
+    width: 20em;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    width: 150px;
+    margin-left: 960px;
+    margin-top: -6em;
+    position: absolute;
+  }
+
+.container2{
+    /* border: solid 1px; */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 20%, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 45%);
+    height: 75em;
+    margin-top: -8em;
+    /* z-index: 1; */
+    position: absolute;
+    width: 100%;
+    margin-top:-16em;
+}
+
+h2{
+    color: white;
+    margin-left: 370px;
+    font-size: 50px;
+    margin-top: 370px;
+}
+
+p{
+    color: white;
+    margin-left: 370px;
+}
+
+.lorem2{
+    color: white;
+    width: 20em;
+    margin-left:370px;
+    margin-top: -140px;
+}
+
+.saepe{
+    color: white;
+    margin-top: 20px;
+}
+
+.flèche1{
+    
+    width: 50px;
+    margin-left: 470px;
+    margin-top: -3em;
+}
+
+
+.img4{
+    height: 15em;
+    width: 23em;
+    border: solid 1px white;
+    border-radius: 5%;
+    margin-left: 900px;
+    margin-top: -2em;
+    object-fit: cover;
+}
+
+.tyril{
+    color: white;
+    margin-left: 960px;
+    margin-top: -100px;
+}
+
+.cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: white;
+    margin-left: 910px;
+    position: absolute;
+}
+
+.omnis{
+    color: white;
+    font-size: small;
+    margin-left: 960px;
+    font-size:x-small;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9em;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.img5{
+    width: 20em;
+    height: 25em;
+    border:solid 1px #C0BDB6;
+    border-radius: 20px;
+}
+
+.Elimg5{
+    margin-left: -150px;
+    font-size: x-large;
+    margin-top: -5em;
+}
+
+.soleoimg5{
+    margin-left: -1em;
+    margin-top: 10px;
+}
+
+.cercle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 30px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+
+.img6{
+    width: 20em;
+    height: 25em;
+    border:solid 1px #C0BDB6;
+    border-radius: 20px;
+}
+
+.Elimg6{
+    margin-left: -150px;
+    font-size: x-large;
+    margin-top: -5em;
+}
+
+.soleoimg6{
+    margin-left: -1em;
+    margin-top: 10px;
+}
+
+.cercle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 35px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+/* .ante2{
+    border: 1px solid #C0BDB6;
+    padding: 15px;
+    border-radius: 25px;
+} */
+
+.img7{
+    width: 20em;
+    height: 25em;
+    border:solid 1px #C0BDB6;
+    border-radius: 20px;
+}
+
+.Elimg7{
+    margin-left: -150px;
+    font-size: x-large;
+    margin-top: -5em;
+}
+
+.cercle3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+    margin-left: 35px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.ante1{
+    margin-left: 12em;
+    margin-top: -30em;
+    border: solid 1px transparent;
+    position: absolute;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: x-small;
+    background: rgba(103, 111, 119, 0.5);
+}
+
+/* .back1{
+    background: #C0BDB6;
+} */
+
+.ante2{
+    margin-left: 62em;
+    margin-top: -30em;
+    border: solid 1px transparent;
+    position: absolute;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: x-small;
+    background: rgba(103, 111, 119, 0.5);
+}
+
+.ante3{
+    margin-left: 112em;
+    margin-top: -30em;
+    border: solid 1px transparent;
+    position: absolute;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: x-small;
+    background: rgba(103, 111, 119, 0.5);
+}
+
+ .container3{
+    /* background-color: #330D0D; */
+    height: 50em;
+}
+
+.img8{
+    height: 30em;
+    width: 40em;
+    border: solid 1px transparent;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.manon{
+    margin-left: 800px;
+    margin-top: -12em;
+    font-size: xx-large;
+}
+
+.prae{
+    margin-left: 800px;
+
+}
+
+.hanc{
+    margin-left: 800px;
+    margin-top: 50px;
+    width: 30em;
+
+}
+
+.saepe2{
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.flèche2{
+    width: 50px;
+    margin-left: 900px;
+    margin-top: -30px;
+}
+
+.img9{
+    height: 30em;
+    width: 40em;
+    border: solid 1px transparent;
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-top: 150px;
+
+}
+
+.manon2{
+    margin-left: 380px;
+    margin-top: -10em;
+    font-size: xx-large;
+}
+
+.prae2{
+    margin-left: 380px;
+
+}
+
+.hanc2{
+    margin-left: 380px;
+    margin-top: 50px;
+    width: 20em;
+
+}
+
+.saepe3{
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.flèche3{
+    width: 50px;
+    margin-left: 480px;
+    margin-top: -30px;
+}
+
+.container4{
+    background-color: black;
+    height: 10em;
+    margin-top: 28em;
+    border-top: solid 1px white;
+}
+
+.carpe2{
+    color: white;
+    margin-left: 70px;
+    margin-top: -60px;
+}
+
+.img10{
+    height: 80px;
+    width: 90px;
+
+}
+
+.carpe10{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.reseaux21{
+        height: 20px;
+        width: 20px;
+        /* margin-left: -150px; */
+}
+
+.reseaux22{
+    height: 20px;
+    width: 20px;
+    /* margin-left: -150px; */
+}
+
+.reseaux23{
+    height: 20px;
+    width: 20px;
+    /* margin-left: -150px; */
+}
+
+.reseaux24{
+    height: 20px;
+    width: 20px;
+    /* margin-left: -150px; */
+}
+
+.social2{
+    display: flex;
+    justify-content:space-between;
+    width: 15em;
+    margin-top: -2em;
+    margin-left: 1200px;
+}
+
+/* MEDIA A FINIR */
+ @media (max-width: 399px) {
+   
+    .img2{
+        width: 100%;
+
+    }
+
+    .img3{
+        margin-left: -180px;
+        height: 100px;
+        width: 110px;
+}
+
+    .carpe{
+        margin-left: 110px;
+        margin-bottom: -45px;
+        font-size: 20px;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .habet{
+        font-size: 60px;
+        margin-left: 1px;
+        text-align: center;
+        margin-top: -680px;
+    }
+
+    .sportpart1{
+        margin-left: -200px;
+        margin-top: -180px;
+        margin-right: -6px;
+}
+    
+
+    .sportpart2{
+        margin-top: -180px;
+        margin-left: -90px;
+
+    }
+
+    .sport2{
+        margin-top: 10px;
+
+    }
+
+    .gensport{
+        margin-left: -80px;
+        margin-top: -20px;
+    }
+
+    .lorem{
+        z-index: 1;
+
+    }
+
+    .lorem1{
+        margin-left: -480px;
+        margin-top: -280px;
+       text-align: center;
+       font-size: 18;
+       font-weight: bold;
+       width: 140px;
+    }
+
+    .button1{
+        margin-left: -850px;
+        margin-top: 210px;
+        position: relative;
+        z-index: 2;
+
+    }
+
+    .martinus{
+        margin-left: -280px;
+        margin-top: 460px;
+    }
+
+    .agens{
+        margin-left: 90px;
+        width: 80px;
+        margin-top: 10px;
+
+    }
+
+    .social{
+        display: none;
+    }
+
+    .lorem2{
+        margin-left: 90px;
+        width: 200px;
+        margin-top: -750px;
+    }
+
+    .saepe{
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+
+    .flèche1{
+        margin-left: 195px;
+    }
+
+    .img4{
+        margin-left: 10px;
+        width: 22em;
+        height: 30em;
+        margin-top: 300px;
+    }
+
+    .tyril{
+        margin-left: 50px;
+        margin-top: 420px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .omnis{
+        margin-left: 50px;
+        margin-top: 3px;
+    }
+
+    .cercle{
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .ante1{
+        margin-top: -75em;
+        margin-left: 50px;
+    }
+
+    .ante2{
+        margin-left: 50px;
+
+    }
+
+    .ante3{
+        margin-left: 50px;
+        margin-top: -120em;
+    
+
+    }
+
+    .cercle1{
+        margin-left: 50px;
+    }
+
+    .cercle2{
+        margin-left: 50px;
+    }
+
+    .cercle3{
+        margin-left: 50px;
+    }
+
+    .img6{
+        margin-top: 120px;
+        
+    }
+
+    .img7{
+        margin-top: 120px;
+        
+    }
+
+    .img8{
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    .manon2{
+        margin-left: 20px;
+        margin-top: 2em;
+        font-weight: bold;
+    }
+
+    .prae2{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .hanc2{
+        margin-left: 20px;
+        margin-top: 60px;
+        width: 250px;
+    }
+
+    .saepe3{
+        margin-left: 20px;
+
+    }
+
+    .flèche3{
+        margin-left: 120px;
+
+    }
+
+    .img9{
+        width: 100%;
+        margin-left: -1px;
+        margin-top: 20px;
+
+    }
+
+    .container4{
+        height: 10em;
+        margin-top: 1500px;
+    }
+
+    .manon{
+        margin-left: 20px;
+        margin-top: 4em;
+        font-weight: bold;
+
+    }
+
+    .prae{
+        margin-left: 20px;
+        font-size: 20px;
+
+    }
+
+    .hanc{
+        margin-left: 20px;
+        width: 250px;
+
+    }
+
+    .saepe2{
+        margin-left: 20px;
+
+    }
+
+    .flèche2{
+        margin-left: 120px;
+
+    }
+
+    .container3{
+        height: 23em;
+    }
+
+    .social2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 310px;
+
+    }
+
+
+
+
+
+
+
+  }
